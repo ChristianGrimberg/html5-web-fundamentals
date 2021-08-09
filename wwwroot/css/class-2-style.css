@@ -1,0 +1,15 @@
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
