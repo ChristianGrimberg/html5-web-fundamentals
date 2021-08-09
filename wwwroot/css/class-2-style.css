@@ -18,4 +18,12 @@ footer {
     height: 100px;
     width: 100%;
     background-color: black;
+    color: wheat;
+    margin-top: 50px; /*Distancia respecto a otro elemento*/
+    padding-top: 25px; /*Distancia dentro de los bordes del mismo elemento*/
+    text-align: center;
+}
+
+footer a:link {
+    color: wheat;
 }
