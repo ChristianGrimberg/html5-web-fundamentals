@@ -27,3 +27,15 @@ footer {
 footer a:link {
     color: wheat;
 }
+
+img {
+    border: 1px solid black;
+}
+
+.dotnet6 {
+    width: 75%;
+}
+
+.office365 {
+    width: 75%;
+}
