@@ -3,7 +3,7 @@ body{
 }
 
 h1{
-    background-color: aquamarine;
+    background-color: azure;
 }
 
 h2{
@@ -14,8 +14,13 @@ h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p {
+    font-size: 18px;
+}
+
 a {
     text-decoration: none;
+    text-transform: capitalize;
 }
 
 a:link, a:visited {
@@ -28,4 +33,23 @@ a:hover {
 
 a:active {
     color: dimgrey;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    width: 400px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 80px;
+    border: none;
+    background-color: coral;
+}
+
+footer {
+    text-transform: uppercase;
+}
+
+footer button a:link, footer button a:visited {
+    color: cadetblue;
 }
