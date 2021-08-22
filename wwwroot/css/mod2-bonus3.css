@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+button {
+    border-radius: 0px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: center;
+    width: 100px;
+    color: gray;
+    background-color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+h2 {
+    color: forestgreen;
+}
+
+p {
+    color: darkslategrey;
+}
