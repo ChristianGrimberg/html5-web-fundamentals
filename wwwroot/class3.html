@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3 - Formularios</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Uso de formularios en paginas web</h1>
+        <form action="inscribir.php" method="post">
+            <label for="txtName">Ingrese su nombre: </label>
+            <input type="text" name="name" id="txtName" minlength="1" maxlength="25" required placeholder="Dato obligatorio">
+            <br>
+            <label>Ingrese la contraseña: 
+                <input type="password" name="password" minlength="8" maxlength="50" required placeholder="Dato obligatorio">
+            </label>
+            <br>
+            <label>Ingrese su correo:
+                <input type="email" name="email" minlength="3" maxlength="50" required placeholder="Dato obligatorio">
+            </label>
+            <br>
+            <label>Ingrese su edad:
+                <input type="number" name="age" min="1" max="120" required>
+            </label>
+            <br>
+            <label>Fecha de inscripcion:
+                <input type="date" name="date" required>
+            </label>
+            <br>
+            <h4>Seleccione uno o varios cursos</h4>
+            <label>HTML5
+                <input type="checkbox" name="course1" value="html" checked>
+            </label>
+            <br>
+            <label>JavaScript
+                <input type="checkbox" name="course2" value="javascript">
+            </label>
+            <br>
+            <label>CCS3
+                <input type="checkbox" name="course3" value="css">
+            </label>
+            <br>
+            <h4>Seleccione una carrera</h4>
+            <label>Programacion .NET
+                <input type="radio" name="carrer" value="dotnet">
+            </label>
+            <br>
+            <label>PHP Full Stack
+                <input type="radio" name="carrer" value="php">
+            </label>
+            <br>
+            <label>UX - User Experience
+                <input type="radio" name="carrer" value="ux">
+            </label>
+            <br>
+            <br>
+            <label>Elegir el turno de la cursada:
+                <select name="turno">
+                    <option value="M">Mañana</option>
+                    <option value="T">Tarde</option>
+                    <option value="N">Noche</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>Dejenos sus comentarios<br>
+                <textarea name="comment" cols="20" rows="10" maxlength="160"></textarea>
+            </label>
+            <br>
+            <br>
+            <label>Envie su comprobante de pago<br>
+                <label>
+                    Adjunte su archivo: <input type="file" name="file">
+                </label>
+            </label>
+            <br>
+            <button>Enviar datos</button>
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Cancelar">
+        </form>
+    </main>
+</body>
+</html>
