@@ -14,7 +14,7 @@
     </header>
     <main>
         <h1>Practica de formularios</h1>
-        <form action="php/modulo3.php" method="get">
+        <form action="php/modulo3.php" method="post">
             <label for="txtName">Nombre: </label>
             <input type="text" name="name" id="txtName" maxlength="25" placeholder="Mi nombre" required>
             <br>
@@ -22,10 +22,10 @@
             <input type="password" name="password" id="txtPassword" minlength="8" required>
             <br>
             <label for="txtMail">Correo: </label>
-            <input type="email" name="email" id="txtMail" placeholder="info@email.com" required>
+            <input type="email" name="email" id="txtMail" placeholder="info@email.com" required multiple>
             <br>
             <label for="txtAge">Edad: </label>
-            <input type="number" name="age" id="txtAge" min="1" max="120" required>
+            <input type="number" name="age" id="txtAge" min="2" max="120" required step="2">
             <br>
             <input type="submit" value="Enviar">
         </form>
