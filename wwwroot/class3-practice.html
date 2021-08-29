@@ -14,7 +14,7 @@
     </header>
     <main>
         <h1>Practica de formularios</h1>
-        <form action="php/modulo3.php" method="post">
+        <form action="php/modulo3.php" method="post" enctype="multipart/form-data">
             <label for="txtName">Nombre: </label>
             <input type="text" name="name" id="txtName" maxlength="25" placeholder="Mi nombre" required>
             <br>
@@ -44,6 +44,16 @@
             <br>
             <input type="checkbox" name="courses" id="chkJAVA" value="JAVA">
             <label for="chkJAVA">JAVA</label>
+            <br>
+            <label for="txtArea">Comentarios:</label>
+            <br>
+            <textarea name="comments" id="txtArea" cols="30" rows="10"></textarea>
+            <br>
+            <label for="txtSearch">Busqueda: </label>
+            <input type="search" name="search" id="txtSearch">
+            <br>
+            <label for="fileBox"></label>
+            <input type="file" name="file" id="fileBox" multiple>
             <br>
             <input type="reset" value="Cancelar">
             <input type="submit" value="Enviar">
