@@ -2,10 +2,7 @@ version: '3.4'
 
 services:
   html5-web-fundamentals:
-    image: "csgrimberg/html5-web-fundamentals:latest"
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: "php:7.4.23-apache-bullseye"
     ports:
       - "0.0.0.0:80:80"
     volumes:
