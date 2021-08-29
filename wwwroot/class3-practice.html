@@ -25,8 +25,27 @@
             <input type="email" name="email" id="txtMail" placeholder="info@email.com" required multiple>
             <br>
             <label for="txtAge">Edad: </label>
-            <input type="number" name="age" id="txtAge" min="2" max="120" required step="2">
+            <input type="number" name="age" id="txtAge" min="2" max="120" required step="2" value="20">
+            <h4>Estado Civil</h4>
+            <input type="radio" name="state" id="rdState1">
+            <label for="rdState1">Solter@</label>
             <br>
+            <input type="radio" name="state" id="rdState2">
+            <label for="rdState2">Casad@</label>
+            <br>
+            <input type="radio" name="state" id="rdState3">
+            <label for="rdState3">Prefiero no responder</label>
+            <h3>Registracion de Cursos</h3>
+            <input type="checkbox" name="PHP" id="chkPHP">
+            <label for="chkPHP">PHP</label>
+            <br>
+            <input type="checkbox" name=".NET" id="chkNET">
+            <label for="chkNET">.NET</label>
+            <br>
+            <input type="checkbox" name="JAVA" id="chkJAVA">
+            <label for="chkJAVA">JAVA</label>
+            <br>
+            <input type="reset" value="Cancelar">
             <input type="submit" value="Enviar">
         </form>
     </main>
