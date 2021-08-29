@@ -12,3 +12,4 @@ Go to the [Public Web Site](https://christiangrimberg.github.io/html5-web-fundam
     ```bash
     docker-compose down
     ```
+1. Open Web Browser to [http://localhost](http://127.0.0.1)
