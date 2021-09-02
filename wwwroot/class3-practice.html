@@ -52,8 +52,16 @@
             <label for="txtSearch">Busqueda: </label>
             <input type="search" name="search" id="txtSearch">
             <br>
-            <label for="fileBox"></label>
+            <label for="fileBox">Carga de archivo: </label>
             <input type="file" name="file" id="fileBox" multiple>
+            <br>
+            <label for="slcCountry">Pais</label>
+            <select name="country" id="slcCountry" multiple required>
+                <option value="ar">Argentina</option>
+                <option value="br">Brasil</option>
+                <option value="cl">Chile</option>
+                <option value="uy" selected>Uruguay</option>
+            </select>
             <br>
             <input type="reset" value="Cancelar">
             <input type="submit" value="Enviar">
