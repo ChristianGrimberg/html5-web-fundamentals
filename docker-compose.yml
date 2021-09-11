@@ -1,9 +1,9 @@
-version: '3.4'
+version: '3.8'
 
 services:
   html5-web-fundamentals:
-    image: "php:7.4.23-apache-bullseye"
+    image: "mcr.microsoft.com/vscode/devcontainers/php:dev-8.0-apache-bullseye"
     ports:
-      - "0.0.0.0:80:80"
+      - "80:80"
     volumes:
-      - ./:/var/www/html
+      - ./:/var/www/html:cached
