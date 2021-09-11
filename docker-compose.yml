@@ -2,8 +2,10 @@ version: '3.8'
 
 services:
   html5-web-fundamentals:
+    container_name: html5-fundamentals
     image: "mcr.microsoft.com/vscode/devcontainers/php:dev-8.0-apache-bullseye"
     ports:
       - "80:80"
     volumes:
       - ./:/var/www/html:cached
+    restart: always
